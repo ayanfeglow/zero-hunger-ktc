@@ -1,0 +1,275 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    
+}
+nav{
+    width: 80vw;
+    height: 7vh;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    position: fixed;
+    background-color:rgba(0, 0, 0, 0.3);
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 80%;
+    font-size: 20px;
+    font-weight: 550;
+    margin: auto;
+}
+
+.hero-section{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../image/homeless-man.jpg);
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.hero-nav{
+    height: 10vh;
+    display: flex;
+    margin-top:auto;
+    justify-content: center;
+    align-items: center;
+}
+.hero-nav a{
+    text-decoration: none;
+    color: white;
+}
+.hero-nav a:hover{
+    color: white;
+    text-decoration: underline;
+}
+.hero-body{
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    align-content: center;
+    justify-content: center;
+}
+.hero-body p{
+    color: #fff;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    margin-top: 5px;
+}
+.hero-body h1{
+    font-size: 70px;
+    text-align: center;
+    font-weight: 900;
+}
+.hero-body button{
+    width: 100px;
+    height: 45px;
+    font-size: 15px;
+    background-color: #2f4f7f;
+    border: none;
+    text-align: center;
+    border-radius: 5px;
+    margin: 10px auto;
+}
+.hero-body button:hover{
+    border-radius: 30px;
+    color:#2f4f7f;
+    background-color: #f7f7f7;
+    transition: ease-in-out .2s ;
+    border: 3px solid #2f4f7f  ;
+}
+.about-section{
+    background-color: #2f4f7f;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.about-section-top{
+    height: 90vh;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+.about-image{
+    width: 50%;
+    margin: auto;
+}
+.about-image img{
+    width: 550px;
+    height: 550px;
+    object-fit: cover;
+    margin: auto;
+    display: flex;
+    border-radius: 10px;
+}
+.about-text{
+    width: 100%;
+    height: 550px;
+    margin: auto;
+    align-content: center;
+    text-align: center;
+}
+.about-text h1{
+    font-size: 50px;
+    font-weight: 900;
+    padding-bottom: 10px;
+    text-align: center;
+    width: 100%;
+}
+.about-text p{
+    font-size: 17px;
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+}
+.about-mission-vision-section{
+    display: flex;
+    background-color:  #2f4f7f;
+    /* background-color: firebrick; */
+    justify-content: space-between;
+    height: 30vh;
+    align-items: center;
+}
+.about-mission{
+    width: 40%;
+    margin: auto;
+    /* background-color: blueviolet; */
+}
+.about-mission h2{
+    margin-bottom: 10px;
+    font-size: 50px;
+    text-align: center;
+    font-weight: 900;
+}
+.about-mission i{
+    /* background-color: #2ff; */
+    width: 70%;
+    margin: auto;
+    font-size: 19px;
+}
+.get-involved{
+    height: 75vh;
+    width: 100%;
+    background-color: rebeccapurple;
+}
+.get-involved-content{
+    display: flex;
+    width: 75%;
+    height: 95%;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+}
+.get-involved-form{
+    width: 370px;
+    height: 420px;
+    display: grid;
+    background-color:  #2f4f7f;
+   border-radius: 10px;
+
+}
+form{
+   height: 250px;
+   display: grid;
+   margin: auto;
+   margin-top: 50px;
+   align-items: center;
+   justify-content: space-evenly;
+   border-radius: 10px;
+}
+form button{
+    height: 40px;
+    margin: 30px 0;
+    background-color: #4675bb;
+    border: none;
+    border-radius: 5px;
+    font-weight: 550;
+}
+label{
+    color: white;
+    font-size: 15px;
+    margin: 10px 10px 4px 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 549;
+}
+input{
+    width: 300px;
+    height: 40px;
+    border: none;
+    outline: none;
+    margin: 20px 10px 4px 10px;
+    padding-left: 10px;
+    background-color: rgb(0, 0, 0, 0.5);
+    color: white;
+   border-radius: 5px;
+
+}
+.get-involved-video video{
+    width: 500px;
+    height: 350px;
+    margin: auto;
+}
+iframe{
+    border-radius: 20px;
+}
+.FAQs{
+    width: 100%;
+    height: auto;
+    /* height: 70vh; */
+    align-items: center;
+    display: flex;
+    background-color: midnightblue;
+
+}
+.accordion-menu{
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.accordion-button:hover{
+    background-color: #4e80c9  !important;
+}
+.accordion-button{
+    border: none !important;
+    border-radius: 0 !important;
+    font-size: 20px;
+    font-weight: 900;
+    color: white !important;
+    background-color: #2f4f7f !important;
+    /* padding: 10px 20px; */
+}
+.accordion-body{
+    background-color: #2f4f7f  !important;
+    color: #fff;
+    font-size: 14px;
+}
+.accordion-button:focus{
+    border: none !important;;
+    box-shadow: none !important;
+    outline: none !important;
+}
+.accordion-item:focus{
+    outline: none;
+}
+footer{
+    height: 10vh;
+    color: rgb(55, 55, 55);
+    background-color: midnightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer p{
+    margin: auto;
+}
+
