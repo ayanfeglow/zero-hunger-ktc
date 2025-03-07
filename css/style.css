@@ -63,6 +63,8 @@ nav ul{
     line-height: 23px;
     text-align: center;
     margin-top: 5px;
+    width: 60%;
+    margin: 0 auto;
 }
 .hero-body h1{
     font-size: 70px;
@@ -136,8 +138,9 @@ nav ul{
     background-color:  #2f4f7f;
     /* background-color: firebrick; */
     justify-content: space-between;
-    height: 30vh;
+    height: auto;
     align-items: center;
+    padding: 0 0 30px 0;
 }
 .about-mission{
     width: 40%;
@@ -150,8 +153,9 @@ nav ul{
     text-align: center;
     font-weight: 900;
 }
-.about-mission i{
+.about-mission p{
     /* background-color: #2ff; */
+    font-style: italic;
     width: 70%;
     margin: auto;
     font-size: 19px;
@@ -175,7 +179,6 @@ nav ul{
     display: grid;
     background-color:  #2f4f7f;
    border-radius: 10px;
-
 }
 form{
    height: 250px;
@@ -185,6 +188,7 @@ form{
    align-items: center;
    justify-content: space-evenly;
    border-radius: 10px;
+   padding: 0 20px;
 }
 form button{
     height: 40px;
@@ -193,6 +197,12 @@ form button{
     border: none;
     border-radius: 5px;
     font-weight: 550;
+}
+form button:hover{
+    height: 40px;
+    background-color: #fff;
+    border-radius: 5px;
+    color: #2f4f7f;
 }
 label{
     color: white;
@@ -234,6 +244,8 @@ iframe{
     width: 80%;
     margin: auto;
     margin-top: 20px;
+    border-radius: 30px;
+
 }
 
 .accordion-button:hover{
@@ -252,6 +264,7 @@ iframe{
     background-color: #2f4f7f  !important;
     color: #fff;
     font-size: 14px;
+    
 }
 .accordion-button:focus{
     border: none !important;;
@@ -273,3 +286,166 @@ footer p{
     margin: auto;
 }
 
+@media (max-width: 1200px) {
+    nav ul{
+        font-size: 15px;
+        width: 90%;
+        margin: auto;
+    }
+    .hero-body p{
+        font-size: 14px;
+        width: 80%;
+    }
+    .hero-body h1{
+        font-size: 50px;
+    }
+    .hero-body button{
+        width: 80px;
+        height: 35px;
+        font-size: 13px;
+    }
+    
+    .about-section{
+    height: auto;
+    }
+    .about-section-top{
+        height: auto;
+        width: 90%;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .about-text{
+        height: auto;
+        margin: 40px 0  0 0;
+        align-content: start;
+    }
+    .about-text h1{
+        font-size: 40px;
+    }
+    .about-text p{
+        font-size: 14px;
+        width: 95%;
+        text-align: center;
+    }
+    .about-image{
+        width: 100%;
+        height: 60%;
+    }
+    .about-image img{
+        width: 90%;
+        height: 100%;
+        max-width: 600px;
+        max-height: 500px;
+        object-fit: cover;
+       
+    }
+    .about-mission-vision-section {
+    height: auto;
+    flex-direction: column;
+    width: 100%;
+    }
+    .about-mission{
+        width: 80%;
+        margin: 20px auto;
+        background-color: #2f4f7f;
+        /* background-color: blueviolet; */
+    }
+    .about-mission h2{
+        margin-bottom: 10px;
+        font-size: 30px;
+        text-align: center;
+        font-weight: 900;
+    }
+    .about-mission p{
+        width: 100%;
+        margin: auto;
+        font-size: 14px;
+        text-align: center;
+    }
+    
+    .get-involved{
+        height: auto;
+        width: 100%;
+        background-color: rebeccapurple;
+    }
+    .get-involved-content{
+        width: 85%;
+        height: auto;
+        flex-direction: column;
+        padding: 30px;
+    }
+    .get-involved-form{
+        width: 370px;
+        height: 420px;
+        display: flex;
+        background-color:  #2f4f7f;
+        border-radius: 10px;
+        margin-bottom: 30px;
+    }
+    form{
+        height: 250px;
+        display: grid;
+        margin: auto;
+        margin-top: 50px;
+        align-items: center;
+        justify-content: space-evenly;
+        border-radius: 10px;
+    }
+    form button{
+        width: 70%;
+        height: 40px;
+        margin: 30px auto;
+        background-color: #4675bb;
+        border: none;
+        border-radius: 5px;
+        font-weight: 550;
+    }
+    form button:hover{
+        height: 40px;
+        background-color: #fff;
+        border-radius: 5px;
+        color: #2f4f7f;
+    }
+    .get-involved-video {
+        margin: 20px 0 0 0 ;
+        width: 70%;
+        min-width: 360px;
+        height: 50vh;
+        margin: 0;
+    }
+    iframe{
+        border-radius: 20px;
+        width: 100%;
+    }
+    .accordion-header h2{
+        font-size: 19px !important;
+    }
+    .FAQs{
+        width: 100%;
+        height: auto;
+        /* height: 70vh; */
+        align-items: center;
+        display: flex;
+        background-color: midnightblue;
+
+    }
+    .accordion-menu{
+        width: 80%;
+        margin: auto;
+        margin-top: 20px;
+        border-radius: 30px;
+
+    }
+    .accordion-button:hover{
+        background-color: #4e80c9  !important;
+    }
+    .accordion-button{
+        border: none !important;
+        border-radius: 0 !important;
+        font-size: 17px !important;
+        font-weight: 900;
+        color: white !important;
+        background-color: #2f4f7f !important;
+        /* padding: 10px 20px; */
+    }
+}
