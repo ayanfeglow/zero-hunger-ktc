@@ -23,7 +23,7 @@
             <p>
                 Join us in the fight against hunger. Your contributions,  whether through donations, volunteering, or spreading awareness, make a direct impact in reducing food insecurity. Together,we can create a world where no one goes to bed hungry
             </p>
-            <button>Donate</button>
+            <a href="#Get-involved"><button>Donate</button></a>
         </div>
     </div>
     <div id="about" class="about-section">
@@ -47,24 +47,43 @@
             <p>Our team of dedicated volunteers, researchers, and community leaders work together to create solutions for the most vulnerable populations. By supporting our work, we can help create a brighter, more equitable future for all.</p>
         </div>
     </div>
-    <div id="Get-involved" class="get-involved">
-        <div class="get-involved-content">
-            <div class="get-involved-form">
-                <form action="">
-                    <label for="">Name:</label>
-                    <input type="text"
-                    placeholder="Enter First Name">
-                    <label for="">Email:</label>
-                    <input type="email"
-                    placeholder="Enter Email">
-                    <label for="">Phone Number:</label>
-                    <input type="text"
-                    placeholder="Enter Phone Number">
-                    <button>Donate</button>
-                </form>
+    <div id="Get-involved" class="get-involved py-5">
+        <div class="get-involved-content ">
+          <div class="get-involved-cards row">
+            <div class="card col-lg-3 col-md-3 mx-4" style="background-color: #4e80c9;">
+                <div class="card-body">
+                    <h2 class=" fw-bold text-white mt-2 card-heading">Donate</h2>
+                    <p class="mt-2 card-text">Your donation can help provide essential food and resources to those in need. Every contribution, no matter how small, has a direct impact on reducing hunger and supporting communities.</p>
+                    <button data-bs-toggle="offcanvas" data-bs-target="#sidebar">Donate</button>
+                </div>
             </div>
-            <div class="get-involved-video">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/iteCytv0RqY?si=CAp5mq2KMbFgEGqi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <div class="card col-lg-3 col-md-3 mx-4 " style="background-color: #4e80c9;">
+                <div class="card-body">
+                    <h2 class=" fw-bolder text-white mt-2 card-heading">Volunteer</h2>
+                    <p class="mt-2 card-text">Join us in the field and assist with food distribution, community education, and awareness programs. Volunteering your time can help make a real impact on the ground.</p>
+                  <button class=" " data-bs-toggle="offcanvas" data-bs-target="#sidebar">Volunteer</button>
+                </div>
+            </div>
+            <div class="card col-lg-3 col-md-3 mx-4" style="background-color: #4e80c9;">
+                <div class="card-body">
+                    <h2 class="fw-bold text-white mt-2 card-heading">Get Involved</h2>
+                    <p class="mt-2 card-text">Help raise awareness, advocate for sustainable food systems, and support local initiatives. Your involvement can help drive change, pushing for policies that ensure everyone has access to enough nutritious food. </p>
+                  <button data-bs-toggle="offcanvas" data-bs-target="#sidebar">Get Involved</button>
+                </div>
+            </div>
+        </div>
+          <div class="offcanvas offcanvas-start" id="sidebar" style="background-color: #4e80c9;">
+          <div class="offcanvas-body">
+              <img src="./image/hungry-boy.jpg" class="w-100 h-50 rounded-3" alt="">
+              <p class="mt-4 fs-6">Your support can make a lasting impact. By donating, you help fund programs that directly benefit those in need. Every contribution, big or small, brings us closer to achieving our mission. You can also get involved by volunteering your time or sharing our cause with others. Together, we can create positive change and make a difference in the lives of many.</p>
+          </div>
+          <div class="offcanvas-footer m-auto">
+            <button class="btn text-white mb-5" data-bs-dismiss="offcanvas" style="background-color: #3069be;">Close</button>
+          </div>
+      </div>       
+        
+            <div class="get-involved-video mt-4">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/iteCytv0RqY?si=CAp5mq2KMbFgEGqi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" class="yt-video" allowfullscreen></iframe>
             </div>
         </div>
     </div>
