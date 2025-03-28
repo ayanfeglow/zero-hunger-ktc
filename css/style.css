@@ -9,13 +9,14 @@
 nav{
     width: 80vw;
     height: 7vh;
-    border-radius: 10px;
+    border-radius: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
     color: black;
     position: fixed;
     background-color:rgba(0, 0, 0, 0.3);
+    z-index: 1;
 }
 nav ul{
     display: flex;
@@ -139,7 +140,6 @@ nav ul{
 .about-mission-vision-section{
     display: flex;
     background-color:  #2f4f7f;
-    /* background-color: firebrick; */
     justify-content: space-between;
     height: auto;
     align-items: center;
@@ -148,7 +148,6 @@ nav ul{
 .about-mission{
     width: 40%;
     margin: auto;
-    /* background-color: blueviolet; */
 }
 .about-mission h2{
     margin-bottom: 10px;
@@ -157,7 +156,6 @@ nav ul{
     font-weight: 900;
 }
 .about-mission p{
-    /* background-color: #2ff; */
     font-style: italic;
     width: 70%;
     margin: auto;
@@ -180,7 +178,6 @@ nav ul{
 }
 .get-involved-cards{
     width: 100%;
-    /* height: 420px; */
     justify-content: center;
 }
 .card{
@@ -194,7 +191,6 @@ nav ul{
 .FAQs{
     width: 100%;
     height: auto;
-    /* height: 70vh; */
     align-items: center;
     display: flex;
     background-color: midnightblue;
@@ -249,7 +245,7 @@ footer p{
     text-align: center;
 }
 .card-body{
-    height: 300px;
+    height: 40vh;
 }
 .card-text{
     font-size: 15px;
@@ -338,7 +334,6 @@ footer p{
         width: 80%;
         margin: 20px auto;
         background-color: #2f4f7f;
-        /* background-color: blueviolet; */
     }
     .about-mission h2{
         margin-bottom: 10px;
@@ -352,7 +347,21 @@ footer p{
         font-size: 14px;
         text-align: center;
     }
-    
+    .card{
+        margin: 20px 0;
+        /* margin: 0 40px !important; */
+    }
+    .card-body{
+        height: 30vh;
+        padding: 10px;
+    }
+    .card-heading{
+        font-size: 20px;
+    }
+    .card-text{
+        font-size: 14px;
+        margin: 0 0 30px 0;
+    }
     .get-involved{
         height: auto;
         width: 100%;
@@ -375,7 +384,7 @@ footer p{
     .FAQs{
         width: 100%;
         height: auto;
-        /* height: 70vh; */
+        height: 70vh;
         align-items: center;
         display: flex;
         background-color: midnightblue;
@@ -398,7 +407,7 @@ footer p{
         font-weight: 900;
         color: white !important;
         background-color: #2f4f7f !important;
-        /* padding: 10px 20px; */
+        padding: 10px 20px;
     }
 }
 @media (max-width: 600px) {
@@ -414,4 +423,29 @@ footer p{
     .card-text{
         font-size: 15px;
     }
+    
+    nav{
+        width: 90vw;
+        height: 7vh;
+        border-radius: 40px;
+        position: fixed;
+        background-color:rgba(0, 0, 0, 0.3);
+        z-index: 99;
+    }
+    nav ul{
+        padding: 0;
+        width: 90%;
+        font-size: 14px;
+        font-weight: 500;
+        /* margin: auto; */
+    }
+    .about-text{
+        margin: 0 0 20px 0;
+    }
+    .card-body{
+        height: 40vh;
+        margin: 10px 0;
+
+    }
+    
 }
